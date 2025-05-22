@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Riska's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body class="bg-pink-200 font-sans">
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center p-6 bg-pink-200">
+    <div class="text-xl font-bold text-blue-700">Portofolio || Riska</div>
+    <div class="space-x-6 text-gray-600">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#profesi">Profesi</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="border px-4 py-1 rounded-md border-gray-400">Search</button>
+  </nav>
+
+  <!-- Hero Section -->
+  <!-- Container dengan posisi relatif -->
+  <div class="relative bg-pink-100">
+    <!-- Section Utama -->
+    <section class="flex flex-col md:flex-row items-center justify-between px-10 md:px-20 py-10 gap-10 font-sans">
+      <!-- Text -->
+      <section class="home" id="home">
+        <div class="home-text" data-aos="fade-up">
+          <div class="hero-text">
+            <p class="text-gray-500 mb-2" data-animate>Hola! I am .</p>
+            <h1 class="text-4xl font-bold text-gray-900 mb-4 text-align" data-animate>
+              Wakhidatun Umu Riska Nur Sholikhah
+            </h1>
+            <h3 class="mb-2 text-black">I am student at SMK N 1 TENGARAN,I chose the softwareengineering major because I 
+              <p>want to gain a broader understanding of computers..</p></h3>
+            <p class="text-gray-600 mb-6" data-animate><i>-"Capturing every moment, without limits.."</i></p>
+            <div class="space-x-4">
+              <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">Hire Me</button>
+              <button class="border border-red-400 text-red-500 px-4 py-2 rounded hover:bg-red-50">Download CV</button>
+            </div>
+          </div>
+
+          <!-- Sosmed -->
+          <div class="flex space-x-6 mt-6 text-3xl" data-animate>
+            <a href="#" class="text-gray-600 hover:text-blue-600"><i class="fab fa-facebook-square"></i></a>
+            <a href="#" class="text-gray-600 hover:text-pink-500"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-gray-600 hover:text-green-500"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" class="text-gray-600 hover:text-red-500"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Foto -->
+      <div class="foto-container">
+        <div class="project-card" data-aos="fade-down">
+          <img src="foto.png" alt="Riska" class="w-64 md:w-80 rounded-full shadow-lg" />
+        </div>
+      </div>
+
+    </section>
+    <!-- Gelombang Bawah -->
+    <div class="-mt-1 wave">
+      <svg viewBox="0 0 1440 320" class="w-full">
+        <path fill="#fefce8" fill-opacity="1"
+          d="M0,224L60,192C120,160,240,96,360,90.7C480,85,600,139,720,149.3C840,160,960,128,1080,122.7C1200,117,1320,139,1380,149.3L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+        </path>
+      </svg>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
+
+  <!-- About Me -->
+  <section class="bg-gradient-to-b from-yellow-50 to-white font-sans" id="about">
+    <div class="flex flex-col md:flex-row items-center gap-16">
+      <!-- Foto -->
+      <div class="w-full md:w-1/2 flex justify-center">
+        <div class="project-card" data-aos="fade-right">
+          <img src="riskaimut.png" alt="Riska"
+            class="w-64 md:w-80 rounded-3xl shadow-lg hover:scale-105 transition-all duration-300 about-img" />
+        </div>
+      </div>
+
+      <!-- Teks -->
+      <div class="w-full md:w-1/2">
+        <div class="project-card" data-aos="fade-left">
+          <h2 class="text-4xl font-bold text-gray-800 mb-6 relative text-shadow-glow">
+            About Me
+            <div class="absolute bottom-0 left-0 w-20 h-1 bg-pink-500 rounded-full"></div>
+          </h2>
+          <p class="text-gray-600 text-lg leading-relaxed mb-6">
+            Hi! I’m <span class="font-semibold text-red-500">Wakhidatun Umu Riska Nur Sholikhah</span>, commonly called Riska, born on July 29, 2009. Currently, I am pursuing my education at a vocational school. I have a great interest in the fields of photography and web design. I also have skills in using Canva to create attractive and creative visual designs.
+          </p>
+          <p class="text-gray-600 text-lg leading-relaxed mb-8">
+            I believe that a continuous learning spirit and a strong work ethic are the main keys to achieving success. By facing every challenge as an opportunity to grow, I am optimistic that the dreams I build will come true through a consistent process, unwavering determination, and commitment to self-improvement.
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Section Skills -->
+    <section class="relative py-16 overflow-hidden">
+
+      <!-- Gelombang sebagai background -->
+      <div class="absolute inset-0 -z-10">
+        <svg viewBox="0 0 1440 320" class="w-full h-full">
+          <path fill="#ffffff" fill-opacity="1"
+            d="M0,160L48,176C96,192,192,224,288,234.7C384,245,480,235,576,224C672,213,768,203,864,197.3C960,192,1056,192,1152,170.7C1248,149,1344,107,1392,85.3L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+          </path>
+        </svg>
+      </div>
+
+      <!-- Isi Skill -->
+      <div class="text-center mb-10">
+        <h1 class="text-3xl font-bold text-black">My Skill</h1>
+      </div>
+
+      <div class="skills-section px-6 md:px-16">
+        <div class="skill-row mb-6">
+          <div class="skill-name text-black">HTML</div>
+          <div class="skill-percent">85%</div>
+          <div class="skill-bar">
+            <div class="skill-fill" style="--level: 85%;"></div>
+          </div>
+        </div>
+        <div class="skill-row mb-6">
+          <div class="skill-name text-black">CSS</div>
+          <div class="skill-percent">75%</div>
+          <div class="skill-bar">
+            <div class="skill-fill" style="--level: 75%;"></div>
+          </div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-name text-black">JavaScript</div>
+          <div class="skill-percent">60%</div>
+          <div class="skill-bar">
+            <div class="skill-fill" style="--level: 60%;"></div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- What I Do Section -->
+    <section id="What I do" class="services" class="bg-gradient-to-b from-yellow-50 to-white font-sans">
+      <div class="service-box animate" id="profesi">
+        <h2 class="text-3xl font-bold mb-8">Riska's profession</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <!-- Card 1 -->
+          <div class="service-box animate bg-yellow-100 p-5 rounded-xl shadow" style="animation-delay: 0.2s;">
+            <div class="project-card" data-aos="fade-right">
+              <div class="flex justify-center mb-4">
+                <img src="foto.png" alt="UI/UX Design" class="w-24 h-24 object-cover rounded-full">
+              </div>
+              <h3 class="text-xl font-semibold">Photografi</h3>
+              <p class="text-gray-600 text-sm mt-2">I want to become a nature photographer who is able to capture the
+                beauty of God's creation through the lens, because I love nature and enjoy preserving every touching
+                moment. My long-term goal is to have my own photography studio and make photography my main profession
+                that can inspire others to love nature more.</p>
+            </div>
+          </div>
+
+          <!-- Card 1 -->
+          <div class="service-box animate bg-purple-200 p-5 rounded-xl shadow" style="animation-delay: 0.2s;">
+            <div class="project-card" data-aos="fade-left">
+              <div class="flex justify-center mb-4">
+                <img src="foto.png" alt="UI/UX Design" class="w-24 h-24 object-cover rounded-full">
+              </div>
+              <h3 class="text-xl font-semibold">Web Developer</h3>
+              <p class="text-gray-600 text-sm mt-2">I have a goal to become a Web Developer who is not only technically
+                proficient but also capable of creating digital solutions that are beneficial and impactful. I want to
+                continually enhance my skills in building efficient, responsive, and user-friendly web applications.</p>
+            </div>
+          </div>
+
+          <!-- Card 1 -->
+          <div class="service-box animate bg-indigo-100 p-5 rounded-xl shadow" style="animation-delay: 0.2s;">
+            <div class="project-card" data-aos="fade-left">
+              <div class="flex justify-center mb-4">
+                <img src="foto.png" alt="UI/UX Design" class="w-24 h-24 object-cover rounded-full">
+              </div>
+              <h3 class="text-xl font-semibold">Web Designer</h3>
+              <p class="text-gray-600 text-sm mt-2">Saya memiliki tujuan untuk menjadi Web Designer yang mampu
+                menciptakan desain website yang tidak hanya menarik secara visual, tetapi juga fungsional dan mudah
+                digunakan. Saya percaya bahwa desain yang baik adalah yang dapat menyampaikan pesan secara jelas dan
+                memberikan pengalaman positif bagi pengguna.</p>
+            </div>
+          </div>
+
+          <!-- Card 1 -->
+          <div class="service-box animate bg-rouded-300 p-5 rounded-xl shadow" style="animation-delay: 0.2s;">
+            <div class="project-card" data-aos="fade-right">
+              <div class="flex justify-center mb-4">
+                <img src="foto.png" alt="UI/UX Design" class="w-24 h-24 object-cover rounded-full">
+              </div>
+              <h3 class="text-xl font-semibold">Doktor</h3>
+              <p class="text-gray-600 text-sm mt-2">Tujuan pribadi saya sebagai seorang dokter adalah memberikan
+                pelayanan kesehatan yang terbaik dengan penuh empati, tanggung jawab, dan integritas. Saya ingin menjadi
+                tenaga medis yang tidak hanya mengobati penyakit, tetapi juga memberikan dukungan holistik bagi
+                pasien—secara fisik, mental, dan emosional</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <script>
+      // Animasi saat halaman dimuat
+      window.addEventListener('load', () => {
+        document.querySelectorAll('.skill-fill').forEach(bar => {
+          const level = bar.getAttribute('data-level');
+          bar.style.width = level;
+        });
+      });
+    </script>
+
+    <!--my project-->
+     <h2 class="text-3xl font-bold mb-8 text-center" id="projects">My Project</h2>
+  <div class="carousel-container mb-20">
+    <button class="nav-btn nav-left" onclick="rotateCarousel(-1)">&#8592;</button>
+    <div class="carousel" id="carousel">
+      <a href="https://arizta99.github.io/kolaborasi/">
+      <div class="card">
+        <img src="project sem 1.jpg" alt="Project 1">
+        <p>Blog Platform</p>
+      </div>
+      </a>
+      <a href="https://naimanasifa12.github.io/unv/">
+      <div class="card">
+        <img src="sem2.jpg" alt="Project 2">
+        <p>Portfolio Website</p>
+      </div>
+      </a>
+      <a href="https://tasya2008.github.io/tugas-trevel/">
+      <div class="card">
+        <img src="tugas1.jpg" alt="Project 3">
+        <p>E-commerce App</p>
+      </div>
+      </a>
+      <a href="https://kurniarahma14.github.io/shop/">
+      <div class="card">
+        <img src="tugas2.jpg" alt="Project 4">
+        <p>Landing Page</p>
+      </div>
+      </a>
+      <a href="https://naimanasifa12.github.io/hoospital/">
+       <div class="card">
+        <img src="tugas3.jpg" alt="Project 1">
+        <p>Blog Platform</p>
+      </div>
+      </a>
+      <a href="https://riskatun.github.io/bunga/">
+       <div class="card">
+        <img src="tugas4.jpg" alt="Project 1">
+        <p>Blog Platform</p>
+      </div>
+      </a>
+    </div>
+    <button class="nav-btn nav-right" onclick="rotateCarousel(1)">&#8594;</button>
+  </div>
+
+  <script>
+    let angle = 0;
+    function rotateCarousel(direction) {
+      const carousel = document.getElementById("carousel");
+      angle += direction * 30; // Adjust for spacing
+      carousel.style.transform = `translateZ(-300px) rotateY(${angle}deg)`;
+    }
+  </script>
+    
+    <!--contact-->
+    <div class="contact-section" id="contact">
+      <div class="contact-container">
+        <div class="contact-info bg-black-500">
+          <h2>Let's Connect</h2>
+          <p>Send a quick email or connect via socials below.</p>
+
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <span>wahidatunumu01@email.com/span>
+          </div>
+
+          <div class="info-item">
+            <i class="fab fa-tiktok"></i>
+            <span>rskaa002</span>
+          </div>
+
+          <div class="info-item">
+            <i class="fab fa-instagram"></i>
+            <span>rskakw</span>
+          </div>
+
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="contact-form bg-black-500">
+          <form>
+            <input type="email" placeholder="your@email.com" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea rows="5" placeholder="Your message..." required></textarea>
+            <button type="submit ">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer style="background-color:  #ffb3f0; color: rgb(15, 15, 15); padding: 20px 0;">
+      <div style="text-align: center;">
+        <p>&copy; 2025 Wakhidatun umu riska. All rights reserved.</p>
+        <p>
+          <a href="https://www.instagram.com" target="_blank"
+            style="color: rgb(19, 18, 18); margin: 0 10px;">Instagram</a>
+          <a href="https://www.facebook.com" target="_blank"
+            style="color: rgb(12, 12, 12); margin: 0 10px;">Facebook</a>
+          <a href="https://www.twitter.com" target="_blank" style="color: rgb(15, 15, 15); margin: 0 10px;">Twitter</a>
+        </p>
+        <p>
+          <a href="mailto:contact@perusahaan.com" style="color: rgb(15, 15, 15);">contact@wahidatunumu01@gmail.com</a>
+        </p>
+        <p>
+          <strong>Alamat:</strong> Jl. Jetak Sari No. 08 , 02 03,  Urutsewu, Ampel, Boyolali, Jawa Tengah
+        </p>
+      </div>
+    </footer>
+
+
+</body>
+
+</html>
